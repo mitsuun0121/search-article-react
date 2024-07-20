@@ -1,0 +1,47 @@
+.article-card {
+  background-color: #333;
+  color: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.article-card .user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.article-card .user-info img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+}
+
+.article-card .user-info .username {
+  font-weight: bold;
+}
+
+.article-card .article-title {
+  font-size: 1.5em;
+  margin: 8px 0;
+}
+
+.article-card .tags {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0;
+}
+
+.article-card .tags .tag {
+  background-color: #444;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.article-card .likes {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
